@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CheckOutApp1.iml" filepath="$PROJECT_DIR$/CheckOutApp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caldroid/caldroid.iml" filepath="$PROJECT_DIR$/caldroid/caldroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkOutApp/checkOutApp.iml" filepath="$PROJECT_DIR$/checkOutApp/checkOutApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textDrawable/textDrawable.iml" filepath="$PROJECT_DIR$/textDrawable/textDrawable.iml" />
+    </modules>
+  </component>
+</project>
