@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/named_item_dialog_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/named_item_dialog_header_height"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="24dp"
+        android:paddingStart="24dp"
+        android:paddingRight="24dp"
+        android:paddingEnd="24dp"
+        android:textSize="@dimen/named_item_dialog_title_text_size"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        style="@style/CheckOutTitleStyle" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      	android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false" >
+    
+	    <EditText
+	        android:id="@+id/named_item_dialog_item_name_edittext"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:hint="@string/util_add_named_item_dialog_item_name_hint"
+	        android:inputType="textPersonName|textCapSentences"
+	        android:textSize="@dimen/named_item_dialog_text_size" />
+	    
+	    <Space
+	        android:layout_width="8dp"
+	        android:layout_height="1dp" />
+	    
+	    <ImageButton
+	        android:id="@+id/named_item_dialog_resource_imagebutton"
+	        android:layout_width="@dimen/named_item_dialog_button_size_double"
+	        android:layout_height="@dimen/named_item_dialog_button_size"
+	        android:layout_gravity="center_vertical"
+	        android:src="@drawable/ic_link_black_36dp"
+            android:contentDescription="@string/empty" />
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/named_item_dialog_resource_url_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="@dimen/named_item_dialog_small_text_size"
+        android:textColor="@color/resourceURL" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/named_item_dialog_OK_button"
+            android:layout_width="@dimen/named_item_dialog_util_button_width"
+            android:layout_height="@dimen/named_item_dialog_util_button_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/util_OK_button_text"
+            android:textAllCaps="true"
+            android:textColor="@drawable/material_flat_button_selector_blue"
+            android:textSize="@dimen/named_item_dialog_util_button_text_size"
+            android:textStyle="bold" />
+        
+        <Space
+            android:id="@+id/space_between_buttons"
+            android:layout_width="8dp"
+            android:layout_height="1dp"
+            android:layout_toLeftOf="@id/named_item_dialog_OK_button"
+            android:layout_toStartOf="@id/named_item_dialog_OK_button" />
+        
+        <Button
+            android:id="@+id/named_item_dialog_CANCEL_button"
+            android:layout_width="@dimen/named_item_dialog_util_button_width"
+            android:layout_height="@dimen/named_item_dialog_util_button_height"
+            android:layout_toLeftOf="@id/space_between_buttons"
+            android:layout_toStartOf="@id/space_between_buttons"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/util_CANCEL_button_text"
+            android:textAllCaps="true"
+            android:textColor="@drawable/material_flat_button_selector_blue"
+            android:textSize="@dimen/named_item_dialog_util_button_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

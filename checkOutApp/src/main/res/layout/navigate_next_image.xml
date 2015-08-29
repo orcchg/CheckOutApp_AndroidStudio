@@ -1,0 +1,13 @@
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+        
+	<ImageButton
+	    android:id="@+id/checkout_page_next"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:background="?android:attr/selectableItemBackground"
+	    android:src="@drawable/ic_navigate_next_black_48dp"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentEnd="true"
+	    android:contentDescription="@string/empty" />
+</merge>

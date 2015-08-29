@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orcchg.checkoutapp.views.StrippedWideLineView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mamboGj="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stripped_line_adaptor_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />

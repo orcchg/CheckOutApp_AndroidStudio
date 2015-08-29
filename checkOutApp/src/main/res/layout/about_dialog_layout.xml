@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_dialog_header_height"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="24dp"
+        android:paddingStart="24dp"
+        android:paddingRight="24dp"
+        android:paddingEnd="24dp"
+        android:text="@string/settings_about"
+        android:textSize="@dimen/about_dialog_title_text_size"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        style="@style/CheckOutTitleStyle" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_dialog_content_height"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" >
+        
+        <TextView
+            android:id="@+id/about_dialog_content_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_text"
+            android:textSize="@dimen/about_dialog_text_size"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            android:singleLine="false" />
+    </ScrollView>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/about_dialog_CLOSE_button"
+            android:layout_width="@dimen/about_dialog_util_button_width"
+            android:layout_height="@dimen/about_dialog_util_button_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/util_CLOSE_button_text"
+            android:textAllCaps="true"
+            android:textColor="@drawable/material_flat_button_selector_blue"
+            android:textSize="@dimen/about_dialog_util_button_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
+    

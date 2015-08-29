@@ -1,0 +1,79 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="DefaultStrippedLineViewStyle" >
+    	<item name="color_exhaust" format="color|reference">#44000000</item>
+    	<item name="color_till" format="color|reference">#8800FF00</item>
+    	<item name="color_click" format="color|reference">#88FF0000</item>
+    	<item name="color_enabled" format="color|reference">#FF33B5E5</item>
+    	<item name="color_text" format="color|reference">#FF000000</item>
+    	<item name="color_line" format="color|reference">#FF000000</item>
+	</style>
+	
+    <style name="AboutDialogStyle" parent="@android:style/Theme.Dialog" >
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+	
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog" >
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+	
+    <style name="NamedItemDialogStyle" parent="@android:style/Theme.Dialog" >
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+	
+    <style name="WarningDialogStyle" parent="@android:style/Theme.Dialog" >
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    
+    <style name="SettingsDialogStyle" parent="@android:style/Theme.Dialog" >
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- CheckOut main styles -->
+    <style name="CheckOutTitleStyle">
+        <item name="android:background">@color/android_red_8</item>
+    </style>
+    <style name="CheckOutTitleStyle.Blue">
+        <item name="android:background">@color/android_blue_8</item>
+    </style>
+    <style name="CheckOutTitleStyle.Red">
+        <item name="android:background">@color/android_red_8</item>
+    </style>
+    
+    <style name="CheckOutListStyle">
+        <item name="android:background">@color/android_red_12</item>
+    </style>
+    <style name="CheckOutListStyle.Blue">
+        <item name="android:background">@color/android_blue_12</item>
+    </style>
+    <style name="CheckOutListStyle.Red">
+        <item name="android:background">@color/android_red_12</item>
+    </style>
+    
+    <style name="CheckOutStrippedLineViewStyle" parent="@style/DefaultStrippedLineViewStyle" >
+        <item name="android:background">@color/android_red_8</item>
+    </style>
+    <style name="CheckOutStrippedLineViewStyle.Blue" parent="@style/DefaultStrippedLineViewStyle" >
+        <item name="android:background">@color/android_blue_8</item>
+        <item name="color_enabled" format="color|reference">@color/red</item>
+    </style>
+    <style name="CheckOutStrippedLineViewStyle.Red" parent="@style/DefaultStrippedLineViewStyle" >
+        <item name="android:background">@color/android_red_8</item>
+    </style>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="StrippedLineViewStyle">@style/DefaultStrippedLineViewStyle</item>
+    </style>
+    
+    <style name="AppTheme.Blue">
+        <item name="CheckOutTitleStyle">@style/CheckOutTitleStyle.Blue</item>
+        <item name="CheckOutListStyle">@style/CheckOutListStyle.Blue</item>
+        <item name="CheckOutStrippedLineViewStyle">@style/CheckOutStrippedLineViewStyle.Blue</item>
+    </style>
+    
+    <style name="AppTheme.Red">
+        <item name="CheckOutTitleStyle">@style/CheckOutTitleStyle.Red</item>
+        <item name="CheckOutListStyle">@style/CheckOutListStyle.Red</item>
+        <item name="CheckOutStrippedLineViewStyle">@style/CheckOutStrippedLineViewStyle.Red</item>
+    </style>
+</resources>

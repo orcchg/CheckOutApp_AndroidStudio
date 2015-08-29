@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- Stripped line view -->
+    <dimen name="default_stripped_line_cell_width">64dp</dimen>
+    <dimen name="default_stripped_line_cell_height">64dp</dimen>
+    <dimen name="default_stripped_wide_line_cell_width">128dp</dimen>
+    <dimen name="default_stripped_wide_line_cell_height">64dp</dimen>
+    <dimen name="default_stripped_object_line_cell_width">128dp</dimen>
+    <dimen name="default_stripped_object_line_cell_height">128dp</dimen>
+    
+    <!-- Checkout page -->
+    <dimen name="checkout_page_header_line_height">48dp</dimen>
+    <dimen name="checkout_page_entries_list_item_height">64dp</dimen>
+    <dimen name="checkout_page_entries_list_shape_size">36dp</dimen>
+    <dimen name="checkout_page_add_entry_button_size">48dp</dimen>
+    <dimen name="checkout_page_add_entry_button_marginBottom">8dp</dimen>
+    <dimen name="checkout_page_add_entry_button_marginRight">8dp</dimen>
+    <dimen name="checkout_page_image_button_size">36dp</dimen>
+    <dimen name="checkout_page_yearmonth_text_size">14sp</dimen>
+    <dimen name="checkout_page_entries_list_text_size">14sp</dimen>
+    <dimen name="checkout_page_summary_text_size">14sp</dimen>
+    <dimen name="checkout_page_date_text_size">12sp</dimen>
+    
+    <dimen name="checkout_widget_stripped_wide_line_cell_width">128dp</dimen>
+    <dimen name="daily_widget_stripped_line_cell_width">64dp</dimen>
+    <dimen name="daily_widget_stripped_line_cell_height">64dp</dimen>
+    <dimen name="monthly_widget_stripped_wide_line_cell_width">128dp</dimen>
+    <dimen name="monthly_widget_stripped_wide_line_cell_height">64dp</dimen>
+    
+    <!-- Entry page -->
+    <dimen name="entry_page_util_button_width">90dp</dimen>
+    <dimen name="entry_page_util_button_height">48dp</dimen>
+    <dimen name="entry_page_util_button_text_size">10sp</dimen>
+    
+    <dimen name="entry_widget_padding_top">10dp</dimen>
+    <dimen name="entry_widget_header_height">48dp</dimen>
+    <dimen name="entry_widget_prefix_width">100dp</dimen>
+    <dimen name="entry_widget_image_size">64dp</dimen>
+    <dimen name="entry_widget_title_text_size">24sp</dimen>
+    <dimen name="entry_widget_text_size">12sp</dimen>
+    
+    <!-- About dialog -->
+    <dimen name="about_dialog_header_height">48dp</dimen>
+    <dimen name="about_dialog_util_button_width">72dp</dimen>
+    <dimen name="about_dialog_util_button_height">36dp</dimen>
+    <dimen name="about_dialog_util_button_text_size">12sp</dimen>
+    <dimen name="about_dialog_title_text_size">16sp</dimen>
+    <dimen name="about_dialog_text_size">14sp</dimen>
+    <dimen name="about_dialog_content_height">200dp</dimen>
+    
+    <!-- Settings dialog -->
+    <dimen name="settings_dialog_width">158dp</dimen>
+    <dimen name="settings_dialog_height">64dp</dimen>
+    <dimen name="settings_text_size">16sp</dimen>
+    
+    <!-- Named item dialog -->
+    <dimen name="named_item_dialog_header_height">48dp</dimen>
+    <dimen name="named_item_dialog_util_button_width">72dp</dimen>
+    <dimen name="named_item_dialog_util_button_height">36dp</dimen>
+    <dimen name="named_item_dialog_util_button_text_size">12sp</dimen>
+    <dimen name="named_item_dialog_title_text_size">16sp</dimen>
+    <dimen name="named_item_dialog_text_size">14sp</dimen>
+    <dimen name="named_item_dialog_small_text_size">12sp</dimen>
+    <dimen name="named_item_dialog_resource_url_width">140dp</dimen>
+    <dimen name="named_item_dialog_edittext_width">290dp</dimen>
+    <dimen name="named_item_dialog_button_size">48dp</dimen>
+    <dimen name="named_item_dialog_button_size_double">72dp</dimen>
+    
+    <!-- Choose resource dialog -->
+    <dimen name="choose_resource_dialog_imagebutton_size">80dp</dimen>
+    
+    <!-- Warning dialog -->
+    <dimen name="warning_dialog_message_height">48dp</dimen>
+    <dimen name="warning_dialog_message_text_size">16sp</dimen>
+    <dimen name="warning_dialog_summary_text_size">14sp</dimen>
+    <dimen name="warning_dialog_close_button_width">72dp</dimen>
+    <dimen name="warning_dialog_close_button_height">36dp</dimen>
+    <dimen name="warning_dialog_util_button_text_size">12sp</dimen>
+
+</resources>

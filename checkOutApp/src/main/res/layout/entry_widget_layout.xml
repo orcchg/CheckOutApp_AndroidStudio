@@ -1,0 +1,102 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/entry_widget_padding_top"
+    android:paddingLeft="8dp"
+    android:paddingStart="8dp"
+    android:paddingRight="8dp"
+    android:paddingEnd="8dp"
+    android:paddingBottom="8dp"
+    android:orientation="vertical"
+    style="@style/CheckOutTitleStyle" >
+    
+    <TextView
+        android:id="@+id/entry_widget_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/entry_widget_header_height"
+        android:gravity="start"
+        android:textSize="@dimen/entry_widget_title_text_size"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+        
+    <FrameLayout
+        android:id="@+id/entry_widget_resource_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+         
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp" >
+        
+	    <TextView
+	        android:id="@+id/entry_widget_prefix_textview"
+	        android:layout_width="@dimen/entry_widget_prefix_width"
+	        android:layout_height="wrap_content"
+	        android:gravity="start"
+	        android:text="@string/util_last_date_prefix"
+	        android:textSize="@dimen/entry_widget_text_size"
+	        android:textColor="@android:color/black" />
+	    
+	    <TextView
+	        android:id="@+id/entry_widget_last_date_textview"
+	        android:layout_width="@dimen/entry_widget_prefix_width"
+	        android:layout_height="wrap_content"
+	        android:gravity="start"
+	        android:textSize="@dimen/entry_widget_text_size"
+	        android:textColor="@android:color/white" />
+    </LinearLayout>
+    
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="8dp" >
+       
+       <CheckBox
+	       android:id="@+id/entry_widget_archive_checkbox"
+	       android:layout_width="@dimen/entry_widget_prefix_width"
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentLeft="true"
+	       android:layout_alignParentStart="true"
+	       android:gravity="center"
+	       android:drawablePadding="2dp"
+	       android:text="@string/util_archived"
+	       android:textSize="@dimen/entry_widget_text_size"
+		   android:textColor="@android:color/black" />
+       
+       <Button
+           android:id="@+id/entry_widget_DELETE_button"
+           android:layout_width="@dimen/entry_page_util_button_width"
+           android:layout_height="@dimen/entry_page_util_button_height"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true"
+           android:text="@string/util_DELETE_button_text"
+           android:textAllCaps="true"
+           android:textColor="@drawable/material_flat_button_selector_red"
+           android:textSize="@dimen/entry_page_util_button_text_size"
+           android:textStyle="bold" />
+       
+       <Space
+           android:id="@+id/entry_widget_button_space_one"
+           android:layout_width="8dp"
+           android:layout_height="1dp"
+           android:layout_toLeftOf="@id/entry_widget_DELETE_button"
+           android:layout_toStartOf="@id/entry_widget_DELETE_button" />
+       
+       <Button
+           android:id="@+id/entry_widget_MODIFY_button"
+           android:layout_width="@dimen/entry_page_util_button_width"
+           android:layout_height="@dimen/entry_page_util_button_height"
+           android:layout_toLeftOf="@id/entry_widget_button_space_one"
+           android:layout_toStartOf="@id/entry_widget_button_space_one"
+           android:text="@string/util_MODIFY_button_text"
+           android:textAllCaps="true"
+           android:textColor="@android:color/black"
+           android:textSize="@dimen/entry_page_util_button_text_size"
+           android:textStyle="bold" />
+   </RelativeLayout>
+</LinearLayout>

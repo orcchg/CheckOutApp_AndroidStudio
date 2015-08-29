@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="gradient_end_color">#20A100</color>
+    <color name="gradient_center_color">#248C0A</color>
+    <color name="gradient_start_color">#28C900</color>
+    
+    <color name="solid_black_color">#000000</color>
+    <color name="button_pressed_color">#FFEEAA</color>
+    
+    <color name="dialog_bg_color">#3E80B4</color>
+    <color name="dialog_text_color">#5DBCD2</color>
+    <color name="resourceURL">#0000FF</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="red">#880000</color>
+    <color name="green">#008800</color>
+    <color name="blue">#000088</color>
+    <color name="purple">#660066</color>
+    <color name="black">#000000</color>
+    <color name="ghostwhite">#F8F8FF</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="android_blue_14">#E2F4FB</color>
+    <color name="android_blue_13">#C5EAF8</color>
+    <color name="android_blue_12">#A8DFF4</color>
+    <color name="android_blue_11">#8AD5F0</color>
+    <color name="android_blue_10">#6DCAEC</color>
+    <color name="android_blue_9">#50C0E9</color>
+    <color name="android_blue_8">#33B5E5</color>
+    <color name="android_blue_7">#2CD1E1</color>
+    <color name="android_blue_6">#24ADDE</color>
+    <color name="android_blue_5">#1DA9DA</color>
+    <color name="android_blue_4">#16A5D7</color>
+    <color name="android_blue_3">#0FA1D3</color>
+    <color name="android_blue_2">#079DD0</color>
+    <color name="android_blue_1">#0099CC</color>
+    
+    <color name="android_purple_14">#F5EAFA</color>
+    <color name="android_purple_13">#E5CAF2</color>
+    <color name="android_purple_12">#DDBCEE</color>
+    <color name="android_purple_11">#D6ADEB</color>
+    <color name="android_purple_10">#CF9FE7</color>
+    <color name="android_purple_9">#CB97E5</color>
+    <color name="android_purple_8">#C58BE2</color>
+    <color name="android_purple_7">#C182E0</color>
+    <color name="android_purple_6">#BA75DC</color>
+    <color name="android_purple_5">#B368D9</color>
+    <color name="android_purple_4">#AC59D6</color>
+    <color name="android_purple_3">#A750D3</color>
+    <color name="android_purple_2">#A041D0</color>
+    <color name="android_purple_1">#9933CC</color>
+    
+    <color name="android_green_14">#F0F8DB</color>
+    <color name="android_green_13">#E2F0B6</color>
+    <color name="android_green_12">#D3E992</color>
+    <color name="android_green_11">#C5E26D</color>
+    <color name="android_green_10">#B6DB49</color>
+    <color name="android_green_9">#A8D324</color>
+    <color name="android_green_8">#99CC00</color>
+    <color name="android_green_7">#92C500</color>
+    <color name="android_green_6">#8ADB00</color>
+    <color name="android_green_5">#83B600</color>
+    <color name="android_green_4">#7CAF00</color>
+    <color name="android_green_3">#75A800</color>
+    <color name="android_green_2">#6DA000</color>
+    <color name="android_green_1">#669900</color>
+    
+    <color name="android_orange_14">#F8EFD9</color>
+    <color name="android_orange_13">#FDEABE</color>
+    <color name="android_orange_12">#FEE29F</color>
+    <color name="android_orange_11">#FFD980</color>
+    <color name="android_orange_10">#FDCE5F</color>
+    <color name="android_orange_9">#FFC641</color>
+    <color name="android_orange_8">#FFBD21</color>
+    <color name="android_orange_7">#FFB61C</color>
+    <color name="android_orange_6">#FFAE18</color>
+    <color name="android_orange_5">#FFA713</color>
+    <color name="android_orange_4">#FFA00E</color>
+    <color name="android_orange_3">#FF9909</color>
+    <color name="android_orange_2">#FF9105</color>
+    <color name="android_orange_1">#FF8A00</color>
+    
+    <color name="android_red_14">#FFE4E4</color>
+    <color name="android_red_13">#FFCACA</color>
+    <color name="android_red_12">#FFAFAF</color>
+    <color name="android_red_11">#FF9494</color>
+    <color name="android_red_10">#FF7979</color>
+    <color name="android_red_9">#FF5F5F</color>
+    <color name="android_red_8">#FF4444</color>
+    <color name="android_red_7">#F83A3A</color>
+    <color name="android_red_6">#F03131</color>
+    <color name="android_red_5">#E92727</color>
+    <color name="android_red_4">#E21D1D</color>
+    <color name="android_red_3">#DB1313</color>
+    <color name="android_red_2">#D30A0A</color>
+    <color name="android_red_1">#CC0000</color>
+    
+    <color name="mambo_title_grey">#808080</color>
+    <color name="mambo_black">#000000</color>
+    <color name="mambo_green">#A9D08C</color>
+    <color name="mambo_blue">#8BA8DE</color>
+    <color name="mambo_pink">#F1A4C6</color>
+    <color name="mambo_white">#FFFFFF</color>
+    <color name="mambo_light_grey">#D9D9D9</color>
+    <color name="mambo_grey">#D8D7D6</color>
+    <color name="mambo_purple">#BC98E0</color>
+    <color name="mambo_yellow">#FEE898</color>
+    <color name="mambo_dark_pink">#F582BB</color>
+    <color name="mambo_sky">#72CDEA</color>
+    <color name="mambo_red_text">#DC1F1E</color>
+    <color name="mambo_light_brown">#F8CAAC</color>
+    
+    <!-- Color picker -->
+    <string-array name="default_color_choice_values" translatable="false">
+        <item>#33b5e5</item>
+        <item>#aa66cc</item>
+        <item>#99cc00</item>
+        <item>#ffbb33</item>
+        <item>#ff4444</item>
+        <item>#0099cc</item>
+        <item>#9933cc</item>
+        <item>#669900</item>
+        <item>#ff8800</item>
+        <item>#cc0000</item>
+        <item>#ffffff</item>
+        <item>#eeeeee</item>
+        <item>#cccccc</item>
+        <item>#888888</item>
+    </string-array>
+    
+    <!-- Material Design color palette -->
+    <color name="material_design_grey300">#e0e0e0</color>
+    <color name="floating_button_color">#FF0000</color>
+    
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Stripped Line View -->
+    <declare-styleable name="StrippedLineView" >
+        <attr name="cell_width" format="dimension" />
+        <attr name="cell_height" format="dimension" />
+        <attr name="num_cells" format="integer" />
+        <attr name="color_exhaust" format="color|reference" />
+        <attr name="color_till" format="color|reference" />
+        <attr name="color_click" format="color|reference" />
+        <attr name="color_enabled" format="color|reference" />
+        <attr name="color_text" format="color|reference" />
+        <attr name="color_line" format="color|reference" />
+    </declare-styleable>
+    
+    <!-- Common style attributes for Theme -->
+    <attr name="StrippedLineViewStyle" format="reference" />
+    <attr name="CheckOutTitleStyle" format="reference" />
+    <attr name="CheckOutListStyle" format="reference" />
+    <attr name="CheckOutStrippedLineViewStyle" format="reference" />
+</resources>

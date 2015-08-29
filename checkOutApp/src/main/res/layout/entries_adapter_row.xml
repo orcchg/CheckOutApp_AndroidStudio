@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/entries_adapter_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/checkout_page_entries_list_item_height"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/entries_adapter_entry_textview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:gravity="center"
+        android:textSize="@dimen/checkout_page_entries_list_text_size"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    
+    <FrameLayout
+         android:layout_width="0dp"
+	     android:layout_height="match_parent"
+	     android:layout_weight="0.3"
+	     android:layout_marginRight="8dp"
+	     android:layout_marginEnd="8dp" >
+	     
+	    <ImageView
+	        android:id="@+id/entries_adapter_checkouts_imageview"
+	        android:layout_width="@dimen/checkout_page_entries_list_shape_size"
+	        android:layout_height="@dimen/checkout_page_entries_list_shape_size"
+	        android:layout_gravity="center"
+	        android:contentDescription="@string/empty" />
+    </FrameLayout>
+</LinearLayout>

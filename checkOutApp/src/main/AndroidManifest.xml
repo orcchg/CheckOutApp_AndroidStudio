@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orcchg.checkoutapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+    <application
+        android:name="com.orcchg.checkoutapp.core.CheckOutApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name=".StartPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CheckOutPage"
+            android:screenOrientation="landscape" />
+        
+        <activity
+            android:name=".EntryPage"
+            android:screenOrientation="landscape" />
+        
+        <service
+            android:name="com.orcchg.checkoutapp.core.DatabaseWriterService"
+            android:label="@string/database_writer_service"
+            android:exported="false" />
+    </application>
+
+</manifest>

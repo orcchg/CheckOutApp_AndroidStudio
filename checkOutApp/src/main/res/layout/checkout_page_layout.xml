@@ -1,0 +1,127 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    tools:context="com.orcchg.checkoutapp.CheckOutPage"
+    tools:ignore="MergeRootFrame" >
+    
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/checkout_page_header_line_height" >
+                
+                <include layout="@layout/navigate_previous_image" />
+                
+	            <TextView
+		            android:id="@+id/checkout_page_yearmonth_textview"
+		            android:layout_width="wrap_content"
+		            android:layout_height="match_parent"
+		            android:layout_centerInParent="true"
+		            android:gravity="center"
+		            android:textSize="@dimen/checkout_page_yearmonth_text_size"
+		            android:textColor="@android:color/black"
+		            android:textStyle="bold"
+		            android:lines="2" />
+	            
+	            <include layout="@layout/navigate_next_image" />
+            </RelativeLayout>
+            
+            <ListView
+	            android:id="@+id/checkout_page_entries_listview"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:transcriptMode="disabled"
+	            style="@style/CheckOutListStyle" />
+        </LinearLayout>
+        
+        <ImageButton
+	        android:id="@+id/checkout_page_add_entry_imagebutton"
+	        android:layout_width="@dimen/checkout_page_add_entry_button_size"
+	        android:layout_height="@dimen/checkout_page_add_entry_button_size"
+	        android:layout_gravity="bottom|end"
+	        android:layout_marginBottom="@dimen/checkout_page_add_entry_button_marginBottom"
+	        android:layout_marginRight="@dimen/checkout_page_add_entry_button_marginRight"
+	        android:layout_marginEnd="@dimen/checkout_page_add_entry_button_marginRight"
+	        android:background="?android:attr/selectableItemBackground"
+	        android:contentDescription="@string/empty" />
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/checkout_page_container_framelayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6" />
+    
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/checkout_page_header_line_height"
+	            android:orientation="horizontal"
+	            android:baselineAligned="false" >
+                
+                <ImageButton
+                    android:id="@+id/checkout_page_switch_imagebutton"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/checkout_page_image_button_size"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ic_list_black_36dp"
+                    android:contentDescription="@string/empty" />
+                
+                <ImageButton
+                    android:id="@+id/checkout_page_share_imagebutton"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/checkout_page_image_button_size"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ic_share_black_36dp"
+                    android:contentDescription="@string/empty" />
+                                
+                <ImageButton
+                    android:id="@+id/checkout_page_settings_imagebutton"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/checkout_page_image_button_size"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/ic_settings_black_36dp"
+                    android:contentDescription="@string/empty" />
+            </LinearLayout>
+            
+            <com.orcchg.checkoutapp.views.ScrollDisabledListView
+	            android:id="@+id/checkout_page_summaries_listview"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:transcriptMode="disabled"
+	            style="@style/CheckOutListStyle" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

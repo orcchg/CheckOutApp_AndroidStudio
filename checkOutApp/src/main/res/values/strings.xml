@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CheckOutApp</string>
+    <string name="empty"></string>
+    
+    <string name="util_CANCEL_button_text">Cancel</string>
+    <string name="util_OK_button_text">Accept</string>
+    <string name="util_DELETE_button_text">Delete</string>
+    <string name="util_CLOSE_button_text">Close</string>
+    <string name="util_RESOURCE_button_text">Resource</string>
+    <string name="util_MODIFY_button_text">Modify</string>
+
+    <string name="util_add_named_item_dialog_item_name_hint">Enter&#160;name</string>
+    <string name="util_add_new_item_error_name">Invalid&#160;name!</string>
+    <string name="util_new_entry_dialog_title">New&#160;entry</string>
+    <string name="util_change_entry_dialog_title">Change&#160;entry</string>
+    <string name="util_last_date_prefix">Last&#160;date:</string>
+    <string name="util_archived">Archived</string>
+    <string name="util_delete_entry_title">Warning</string>
+    <string name="util_delete_entry_summary">Are&#160;you,&#160;sure&#160;to&#160;delete&#160;entry?</string>
+    <string name="util_resource_url">Enter&#160;URL</string>
+    <string name="util_choose_resource_dialog_title">Set&#160;resource</string>
+    
+    <string name="settings_about">About</string>
+    <string name="settings_themes">Appearance</string>
+    
+    <string name="about_text">
+        CheckOutApp&#160;&#45;&#160;keep&#160;track&#160;your&#160;activities\n
+        during&#160;a&#160;month&#160;or&#160;a&#160;year.\n\n
+        Author&#58;&#160;Alov&#160;Maxim&#160;&#60;alovmax&#64;yandex.ru&#62;\n
+        Version&#58;&#160;1.0,&#160;31.08.2015\n
+        Libraries&#58;&#160;Apache&#160;commons,&#160;Date4j,&#160;Guava,\n
+        Joda&#45;time,&#160;Picasso,&#160;Yandex&#160;Map&#160;Kit&#160;(MapView).
+    </string>
+    
+    <string-array name="util_weekdays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    
+    <string-array name="util_weekdays_abbr">
+        <item>Mon.</item>
+        <item>Tue.</item>
+        <item>Wed.</item>
+        <item>Thu.</item>
+        <item>Fri.</item>
+        <item>Sat.</item>
+        <item>Sun.</item>
+    </string-array>
+    
+    <string-array name="util_months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    
+    <string name="summary_date_future">Future</string>
+    <string name="summary_date_never">Never</string>
+    <string name="summary_date_today">Today</string>
+    <string name="summary_date_yesterday">Yesterday</string>
+    <string name="summary_date_two_days_ago">2&#160;days&#160;ago</string>
+    <string name="summary_date_three_days_ago">3&#160;days&#160;ago</string>
+    <string name="summary_date_four_days_ago">4&#160;days&#160;ago</string>
+    <string name="summary_date_five_days_ago">5&#160;days&#160;ago</string>
+    <string name="summary_date_six_days_ago">6&#160;days&#160;ago</string>
+    <string name="summary_date_week_ago">Week&#160;ago</string>
+    <string name="summary_date_two_weeks_ago">2&#160;weeks&#160;ago</string>
+    <string name="summary_date_three_weeks_ago">3&#160;weeks&#160;ago</string>
+    <string name="summary_date_month_ago">Month&#160;ago</string>
+    <string name="summary_date_two_months_ago">2&#160;months&#160;ago</string>
+    <string name="summary_date_three_months_ago">3&#160;months&#160;ago</string>
+    <string name="summary_date_four_months_ago">4&#160;months&#160;ago</string>
+    <string name="summary_date_five_months_ago">5&#160;months&#160;ago</string>
+    <string name="summary_date_six_months_ago">6&#160;months&#160;ago</string>
+    <string name="summary_date_seven_months_ago">7&#160;months&#160;ago</string>
+    <string name="summary_date_eight_months_ago">8&#160;months&#160;ago</string>
+    <string name="summary_date_nine_months_ago">9&#160;months&#160;ago</string>
+    <string name="summary_date_ten_months_ago">10&#160;months&#160;ago</string>
+    <string name="summary_date_eleven_months_ago">11&#160;months&#160;ago</string>
+    <string name="summary_date_year_ago">Year&#160;ago</string>
+    <string name="summary_date_long_ago">Long&#160;ago</string>
+    <string name="summary_date_last_year">Last&#160;year</string>
+    
+    <string name="database_writer_service" translatable="false">DatabaseWriterService</string>
+</resources>

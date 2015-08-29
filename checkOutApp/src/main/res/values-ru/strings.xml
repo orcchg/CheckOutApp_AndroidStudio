@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CheckOutApp</string>
+
+    <string name="util_CANCEL_button_text">Отмена</string>
+    <string name="util_OK_button_text">Принять</string>
+    <string name="util_DELETE_button_text">Удалить</string>
+    <string name="util_CLOSE_button_text">Закрыть</string>
+    <string name="util_RESOURCE_button_text">Ресурс</string>
+    <string name="util_MODIFY_button_text">Изменить</string>
+    
+    <string name="util_add_named_item_dialog_item_name_hint">Введите&#160;название</string>
+    <string name="util_add_new_item_error_name">Неверный&#160;ввод!</string>
+    <string name="util_new_entry_dialog_title">Новая&#160;запись</string>
+    <string name="util_change_entry_dialog_title">Изменить&#160;запись</string>
+    <string name="util_last_date_prefix">Последний&#160;раз:</string>
+    <string name="util_archived">Архив</string>
+    <string name="util_delete_entry_title">Предупреждение</string>
+    <string name="util_delete_entry_summary">Вы&#160;уверены,&#160;что&#160;хотите&#160;удалить&#160;запись?</string>
+    <string name="util_resource_url">Введите&#160;URL</string>
+    <string name="util_choose_resource_dialog_title">Выбор&#160;ресурса</string>
+    
+    <string name="settings_about">О&#160;программе</string>
+    <string name="settings_themes">Оформление</string>
+    
+    <string name="about_text">
+        CheckOutApp&#160;&#45;&#160;следите&#160;за&#160;своими&#160;активностями\n
+        втечение&#160;всего&#160;месяца&#160;или&#160;целый&#160;год.\n\n
+        Автор&#58;&#160;Алов&#160;Максим&#160;&#60;alovmax&#64;yandex.ru&#62;\n
+        Версия&#58;&#160;1.0,&#160;31.08.2015\n
+        Библиотеки&#58;&#160;Apache&#160;commons,&#160;Date4j,&#160;Guava,\n
+        Joda&#45;time,&#160;Picasso,&#160;Yandex&#160;Map&#160;Kit&#160;(MapView).
+    </string>
+    
+    <string-array name="util_weekdays">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    
+    <string-array name="util_weekdays_abbr">
+        <item>Пн.</item>
+        <item>Вт.</item>
+        <item>Ср.</item>
+        <item>Чт.</item>
+        <item>Пт.</item>
+        <item>Сб.</item>
+        <item>Вс.</item>
+    </string-array>
+    
+    <string-array name="util_months">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+    
+    <string name="summary_date_future">Будущее</string>
+    <string name="summary_date_never">Никогда</string>
+    <string name="summary_date_today">Сегодня</string>
+    <string name="summary_date_yesterday">Вчера</string>
+    <string name="summary_date_two_days_ago">2&#160;дня&#160;назад</string>
+    <string name="summary_date_three_days_ago">3&#160;дня&#160;назад</string>
+    <string name="summary_date_four_days_ago">4&#160;дня&#160;назад</string>
+    <string name="summary_date_five_days_ago">5&#160;дней&#160;назад</string>
+    <string name="summary_date_six_days_ago">6&#160;дней&#160;назад</string>
+    <string name="summary_date_week_ago">Неделю&#160;назад</string>
+    <string name="summary_date_two_weeks_ago">2&#160;недели&#160;назад</string>
+    <string name="summary_date_three_weeks_ago">3&#160;недели&#160;назад</string>
+    <string name="summary_date_month_ago">Месяц&#160;назад</string>
+    <string name="summary_date_two_months_ago">2&#160;месяца&#160;назад</string>
+    <string name="summary_date_three_months_ago">3&#160;месяца&#160;назад</string>
+    <string name="summary_date_four_months_ago">4&#160;месяца&#160;назад</string>
+    <string name="summary_date_five_months_ago">5&#160;месяцев&#160;назад</string>
+    <string name="summary_date_six_months_ago">6&#160;месяцев&#160;назад</string>
+    <string name="summary_date_seven_months_ago">7&#160;месяцев&#160;назад</string>
+    <string name="summary_date_eight_months_ago">8&#160;месяцев&#160;назад</string>
+    <string name="summary_date_nine_months_ago">9&#160;месяцев&#160;назад</string>
+    <string name="summary_date_ten_months_ago">10&#160;месяцев&#160;назад</string>
+    <string name="summary_date_eleven_months_ago">11&#160;месяцев&#160;назад</string>
+    <string name="summary_date_year_ago">Год&#160;назад</string>
+    <string name="summary_date_long_ago">Очень&#160;давно</string>
+    <string name="summary_date_last_year">В&#160;прошлом&#160;году</string>
+    
+</resources>

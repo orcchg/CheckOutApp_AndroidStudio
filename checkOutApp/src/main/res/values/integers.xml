@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="card_flip_time_full">200</integer>
+    <integer name="card_flip_time_half">100</integer>
+    
+    <integer name="default_enabled_stroke_width">16</integer>
+    <integer name="default_check_stroke_width">8</integer>
+    <integer name="default_checkout_page_add_entry_imagebutton_text_drawable_size">90</integer>
+    <integer name="default_checkouts_imageview_text_drawable_size">45</integer>
+    <integer name="default_summaries_imageview_text_drawable_size">45</integer>
+    <integer name="default_text_factor">4</integer>
+    
+    <integer name="scroll_daily_cells">5</integer>
+    <integer name="scroll_monthly_cells">3</integer>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/alert_dialog_message_textview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/warning_dialog_message_height"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/warning_dialog_message_text_size"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        style="@style/CheckOutTitleStyle" />
+    
+    <TextView
+        android:id="@+id/alert_dialog_summary_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/transparent"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/warning_dialog_summary_text_size"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:minLines="2" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal" >
+        
+	    <Button
+	        android:id="@+id/alert_dialog_ok_button"
+	        android:layout_width="@dimen/warning_dialog_close_button_width"
+	        android:layout_height="@dimen/warning_dialog_close_button_height"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentEnd="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/util_OK_button_text"
+            android:textAllCaps="true"
+            android:textColor="@drawable/material_flat_button_selector_red"
+            android:textSize="@dimen/warning_dialog_util_button_text_size"
+            android:textStyle="bold" />
+	    
+	    <Space
+	        android:id="@+id/space_between_buttons"
+            android:layout_width="8dp"
+            android:layout_height="1dp"
+            android:layout_toLeftOf="@id/alert_dialog_ok_button"
+            android:layout_toStartOf="@id/alert_dialog_ok_button" />
+	    
+	    <Button
+            android:id="@+id/alert_dialog_cancel_button"
+            android:layout_width="@dimen/warning_dialog_close_button_width"
+            android:layout_height="@dimen/warning_dialog_close_button_height"
+            android:layout_toLeftOf="@id/space_between_buttons"
+            android:layout_toStartOf="@id/space_between_buttons"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/util_CANCEL_button_text"
+            android:textAllCaps="true"
+            android:textColor="@drawable/material_flat_button_selector_red"
+            android:textSize="@dimen/warning_dialog_util_button_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
+    
